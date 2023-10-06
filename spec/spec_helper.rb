@@ -31,6 +31,10 @@ module SpecHelper
       end
     end
 
+    if hash.has_key?("enriched")
+      new_hash["enriched"] = hash.fetch("enriched")
+    end
+
     new_hash
   end
 end

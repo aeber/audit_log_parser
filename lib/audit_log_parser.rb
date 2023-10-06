@@ -21,8 +21,15 @@ class AuditLogParser
     header << ')'
     header.sub!(/: *\z/, '')
     header = parse_header(header)
-    body = parse_body(body.strip)
-    result = {'header' => header, 'body' => body}
+    unless body.empty?
+      body, enriched = body.split('\u001D', 2)
+    end
+    body = parse_body(body)
+    if enriched.nil?
+      result = {'header' => header, 'body' => body}
+    else
+      result = {'header' => header, 'body' => body, 'enriched'=>enriched.strip}
+    end
     flatten ? flatten_hash(result) : result
   end
 
