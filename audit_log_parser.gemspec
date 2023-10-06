@@ -4,14 +4,14 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'audit_log_parser/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = 'audit_log_parser'
+  spec.name          = 'dgi_audit_log_parser'
   spec.version       = AuditLogParser::VERSION
-  spec.authors       = ['winebarrel']
-  spec.email         = ['sugawara@winebarrel.jp']
+  spec.authors       = ['winebarrel', 'aeber']
+  spec.email         = ['']
 
   spec.summary       = %q{It is a library for parsing.}
   spec.description   = %q{It is a library for parsing.}
-  spec.homepage      = 'https://github.com/winebarrel/audit_log_parser'
+  spec.homepage      = 'https://github.com/dgi/audit_log_parser'
   spec.license       = 'MIT'
 
   # Specify which files should be added to the gem when it is released.
