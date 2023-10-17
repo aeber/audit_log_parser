@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{It is a library for parsing.}
   spec.description   = %q{It is a library for parsing.}
-  spec.homepage      = 'https://github.com/dgi/audit_log_parser'
+  spec.homepage      = 'https://github.com/dg-i/audit_log_parser'
   spec.license       = 'MIT'
 
   # Specify which files should be added to the gem when it is released.

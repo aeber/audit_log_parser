@@ -2,16 +2,15 @@
 
 It is a library for parsing [linux's audit log](https://github.com/linux-audit/audit-documentation/wiki).
 
-[![Gem Version](https://badge.fury.io/rb/audit_log_parser.svg)](http://badge.fury.io/rb/audit_log_parser)
-[![Build Status](https://travis-ci.org/winebarrel/audit_log_parser.svg?branch=master)](https://travis-ci.org/winebarrel/audit_log_parser)
-[![](https://img.shields.io/badge/rubydoc-reference-blue.svg)](https://www.rubydoc.info/gems/audit_log_parser)
+[![Gem Version](https://badge.fury.io/rb/dgi_audit_log_parser.svg)](https://badge.fury.io/rb/dgi_audit_log_parser)
+[![](https://img.shields.io/badge/rubydoc-reference-blue.svg)](https://www.rubydoc.info/gems/dgi_audit_log_parser)
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'audit_log_parser'
+gem 'dgi_audit_log_parser'
 ```
 
 And then execute:
@@ -20,7 +19,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install audit_log_parser
+    $ gem install dgi_audit_log_parser
 
 ## Usage
 
