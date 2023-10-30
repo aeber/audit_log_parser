@@ -22,7 +22,7 @@ class AuditLogParser
     header.sub!(/: *\z/, '')
     header = parse_header(header)
     unless body.empty?
-      body, enriched = body.split('\u001D', 2)
+      body, enriched = body.split("\u001D", 2)
     end
     body = parse_body(body)
     if enriched.nil?
